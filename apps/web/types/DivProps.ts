@@ -1,5 +1,5 @@
-import React from "react";
+import type React from 'react';
 
-type DivProps = React.ComponentProps<"div">;
+type DivProps = React.ComponentProps<'div'>;
 
 export default DivProps;

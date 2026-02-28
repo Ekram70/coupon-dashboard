@@ -1,5 +1,5 @@
 export const MenuGroup = () => (
-    <>
-        <h1>MenuGroup</h1>
-    </>
-)
+  <>
+    <h1>MenuGroup</h1>
+  </>
+);

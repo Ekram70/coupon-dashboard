@@ -1,7 +1,13 @@
-import React from "react";
-import DivProps from "@/types/DivProps";
-import {cn} from "@/lib/utils";
+import React from 'react';
+import type DivProps from '@/types/DivProps';
+import { cn } from '@/lib/utils';
 
-export const BlockWrapper = (
-    {children, className, ...props}: Readonly<DivProps>
-) => (<div className={cn('p-4 rounded-md', className)} {...props}>{children}</div>)
+export const BlockWrapper = ({
+  children,
+  className,
+  ...props
+}: Readonly<DivProps>) => (
+  <div className={cn('rounded-md p-4', className)} {...props}>
+    {children}
+  </div>
+);
